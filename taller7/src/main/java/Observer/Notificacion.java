@@ -4,10 +4,20 @@
  */
 package Observer;
 
+import FactoryMethod.Tarea;
+
 /**
  *
  * @author Michael
  */
-public class Notificacion {
+public class Notificacion implements Notificador{
+    private String notificacion;
+    private Tarea tarea;
+
+    @Override
+    public void enviarNotificacion() {
+        
+    }
+    
     
 }
